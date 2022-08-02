@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/sunli/AndroidStudioProjects/DrawingApp/app/src/main/res/drawable/background_drawing_view_layout.xml" value="0.284" />
+        <entry key="..\:/Users/sunli/AndroidStudioProjects/DrawingApp/app/src/main/res/drawable/large.xml" value="0.186" />
+        <entry key="..\:/Users/sunli/AndroidStudioProjects/DrawingApp/app/src/main/res/drawable/medium.xml" value="0.186" />
+        <entry key="..\:/Users/sunli/AndroidStudioProjects/DrawingApp/app/src/main/res/drawable/small.xml" value="0.186" />
         <entry key="..\:/Users/sunli/AndroidStudioProjects/DrawingApp/app/src/main/res/layout/activity_main.xml" value="0.2921195652173913" />
         <entry key="..\:/Users/sunli/AndroidStudioProjects/DrawingApp/app/src/main/res/layout/dialog_brush_size.xml" value="0.2921195652173913" />
       </map>
