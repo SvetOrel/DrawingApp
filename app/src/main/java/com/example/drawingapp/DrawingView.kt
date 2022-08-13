@@ -17,10 +17,18 @@ class DrawingView(context : Context, attrs : AttributeSet) : View(context , attr
     private var mBrushSize: Float = 0.toFloat() //A variable for stroke/brush size to draw
     private var color = Color.BLACK //A variable to hold a color of the stroke.
     private var canvas: Canvas? = null
-    private var mPaths = ArrayList<CustomPath>()
+    private val mPaths = ArrayList<CustomPath>()
+    private val mUndoPaths = ArrayList<CustomPath>()
 
     init{
         setupDrawing()
+    }
+
+    fun onClickUndo(){
+        if(mPaths.size > 0){
+            mUndoPaths.add(mPaths.removeAt(mPaths.size - 1))
+            invalidate()
+        }
     }
 
     private fun setupDrawing(){

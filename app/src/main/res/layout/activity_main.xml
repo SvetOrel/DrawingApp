@@ -153,5 +153,21 @@
             android:contentDescription="image"
             android:scaleType="fitXY"
             android:src="@drawable/brush" />
+        <ImageButton
+            android:id="@+id/ib_undo"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="5dp"
+            android:contentDescription="image"
+            android:scaleType="fitXY"
+            android:src="@drawable/undo" />
+        <ImageButton
+            android:id="@+id/ib_save"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_margin="5dp"
+            android:contentDescription="image"
+            android:scaleType="fitXY"
+            android:src="@drawable/save" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
