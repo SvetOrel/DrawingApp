@@ -27,7 +27,7 @@
             android:layout_height="match_parent"
             android:contentDescription="image"
             android:scaleType="centerCrop"
-            android:src="@drawable/bali"/>
+            tools:src="@drawable/bali"/>
 
         <com.example.drawingapp.DrawingView
             android:id="@+id/drawing_view"
